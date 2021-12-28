@@ -1026,11 +1026,6 @@ h4 {
         width: 180px;
         height: 320px;
     }
-  /* .col-sm-12 text img {
-        display: flex;
-        align-items: center;
-        width: 60%;
-    }*/
 }
 
 @media (max-width: 400px) {
