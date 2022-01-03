@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("imag/texture-paper.png");
+
     background-size: 280px 280px;
 }
 
@@ -659,11 +659,11 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 37px;
 }
 
 .hero-bloc-text-sub {
-    font-size: 36px;
+    font-size: 35px;
 }
 
 .statement-bloc-text {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -713,7 +713,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333 !important;
 }
 
 .med-width-whitespace {
