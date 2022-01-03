@@ -477,6 +477,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: black;
 }
 
 .icon-lg {
@@ -680,6 +681,13 @@ p {
     font-size: 12px;
 }
 
+.avis{
+    font-size: 18px;
+    font-weight: bold;
+}
+.avis--source{
+    font-size: 12px;
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto;
@@ -718,7 +726,7 @@ h3 {
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto;
+    margin: auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
