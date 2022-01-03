@@ -477,7 +477,6 @@ button {
 
 .icon-md {
     font-size: 30px!important;
-    color: black;
 }
 
 .icon-lg {
@@ -831,6 +830,9 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
+}
+.bgc-brown{
+    background-color: brown !important;
 }
 
 @media (max-width: 1024px) {
