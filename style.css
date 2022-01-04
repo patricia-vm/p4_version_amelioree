@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .avis{
@@ -685,7 +685,12 @@ p {
     font-weight: bold;
 }
 .avis--source{
-    font-size: 12px;
+    font-size: 14px;
+}
+
+.achievement{
+    color: #000000!important;
+    font-size: 22px;
 }
 .tight-width-whitespace {
     max-width: 600px;
@@ -693,7 +698,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 24px;
     font-family: "Open Sans";
 }
 
@@ -746,6 +751,9 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.black {
+    color: #000000!important; 
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -833,6 +841,12 @@ h4 {
 }
 .bgc-brown{
     background-color: brown !important;
+}
+.bgc-light-brown{
+    background-color: rgba(248, 124, 124, 0.658);
+}
+.col-sm-3 .text-center .icon-md{
+    color: yellow;
 }
 
 @media (max-width: 1024px) {
