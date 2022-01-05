@@ -2,15 +2,18 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="La chouette agence crée des sites web de qualité pout mettre en valeur votre entreprise">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+	<title>Projets - La chouette agence, basée à Lyon - Experte en web design</title>  
+	<meta name=" keywords" content="la chouette agence, design, site web, Lyon, Auvergne-Rhône-Alpes">
+    <meta name="description" content="La chouette agence est une entreprise de web design, située à Lyon,
+	 qui vous apporte une conception personnalisée dans la création de votre site web">
+   
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
-
-    <title>Formulaire de projets</title>  
 </head>
 
 <body>
@@ -65,30 +68,29 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form method="post" action="traitement.php">
-				  <form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" method="post" action="traitement.php"></form>
 					<div class="form-group">
 						<label>
 							Nom
 						</label><br/>
-						<input id="name" class="form-control" required/>
+						<input id="name" class="form-control" required aria-label="votre nom"/>
 					</div>
 					<div class="form-group">
 						<label>
 							Adresse email
 						</label><br/>
-						<input id="email" class="form-control" type="email" required/>
+						<input id="email" class="form-control" type="email" required aria-label="votre email"/>
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
 						</label><br/>
-						<input class="form-control" type="email" required id="input_504">
+						<input class="form-control" type="email" required id="input_504" aria-label="">
 					</div>
 					<div class="form-group">
 						<label> 
 							Brief de votre projet<br/> (Ajoutez autant de détails que nécessaire)<br/>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea id="message" class="form-control" rows="4" cols="50" required aria-label="description de votre projet"></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine bgc-brown" type="submit">
 						Envoyer
@@ -121,22 +123,26 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="#"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="html.fr" aria-label="aller à notre page twitter">
+							<span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="#"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="html.fr" aria-label="aller à notre page facebook">
+							<span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="#"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="html.fr" aria-label="aller à notre site web">
+							<span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="#"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="html.fr" aria-label="aller à notre page instagram">			
+							<span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
