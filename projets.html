@@ -27,7 +27,8 @@
 			<div class="navbar-header">
 				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="Logo web design de la chouette agence de Lyon" height="40"></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span>
+					<span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
@@ -68,29 +69,30 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" method="post" action="traitement.php"></form>
+				<form id="form_1" method="post" action="traitement.php">
 					<div class="form-group">
 						<label>
-							Nom
-						</label><br/>
-						<input id="name" class="form-control" required aria-label="votre nom"/>
+							Nom<br/>
+						</label>
+						<input id="name" class="form-control" required aria-label="votre nom" aria-invalid="false"/>
 					</div>
 					<div class="form-group">
 						<label>
-							Adresse email
-						</label><br/>
+							Adresse email<br/>
+						</label>
 						<input id="email" class="form-control" type="email" required aria-label="votre email"/>
 					</div>
 					<div class="form-group">
 						<label>
-							Comment nous avez-vous connu ?
-						</label><br/>
+							Comment nous avez-vous connu ?<br/>
+						</label>
 						<input class="form-control" type="email" required id="input_504" aria-label="contexte de mise en relation">
 					</div>
 					<div class="form-group">
 						<label> 
 							Brief de votre projet<br/> (Ajoutez autant de détails que nécessaire)<br/>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required aria-label="description de votre projet"></textarea>
+						</label>
+						<textarea id="message" class="form-control" rows="4" cols="50" required aria-label="description de votre projet" aria-invalid="false"></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine bgc-brown" type="submit">
 						Envoyer
@@ -121,25 +123,25 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="html.fr" aria-label="aller à notre page twitter">
+							<a class="social" href="index.html" aria-label="aller à notre page twitter">
 							<span class="fa fa-twitter icon-md" aria-hidden="true"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="html.fr" aria-label="aller à notre page facebook">
+							<a class="social" href="index.html" aria-label="aller à notre page facebook">
 							<span class="fa fa-facebook icon-md" aria-hidden="true"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="html.fr" aria-label="aller à notre site web">
+							<a class="social" href="index.html" aria-label="aller à notre site web">
 							<span class="fa fa-dribbble icon-md" aria-hidden="true"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="html.fr" aria-label="aller à notre page instagram">			
+							<a class="social" href="index.html" aria-label="aller à notre page instagram">			
 							<span class="fa fa-instagram icon-md"aria-hidden="true"></span></a>
 						</div>
 					</div>
