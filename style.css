@@ -848,6 +848,13 @@ h4 {
 .col-sm-3 .text-center .icon-md{
     color: yellow;
 }
+.mail{
+    color: yellow!important;
+}
+
+.mail:hover {
+    color: #FFFFFF!important;
+}
 
 @media (max-width: 1024px) {
     .bloc {
