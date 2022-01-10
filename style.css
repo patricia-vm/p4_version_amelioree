@@ -673,7 +673,7 @@ a {
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 p {
@@ -694,7 +694,7 @@ p {
 }
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
@@ -713,7 +713,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -730,7 +730,7 @@ h3 {
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto ;
+    margin: auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -903,7 +903,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-   
     .bloc-group,
     .bloc-group .bloc {
         display: block;
